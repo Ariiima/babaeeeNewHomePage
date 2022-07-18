@@ -30,6 +30,7 @@
 @media screen and (min-width:640px){ 
   .blackText {
   word-spacing: 10px;
+  
 }
 }
 
@@ -37,6 +38,7 @@
   .blackText {
   word-spacing: 30px;
 }
+
 }
 
 @media screen and (min-width:1024px){ 
