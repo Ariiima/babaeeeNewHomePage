@@ -3,12 +3,12 @@
   import Header from './components/Header.vue'
   import Footer from './components/Footer.vue'
   import Swiper from './components/Swiper.vue'
-  
+  import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
   <div class='bg-[#1A1A1A]'>
-    <Header class="mb-20" />
+    <Navbar class="mb-10" />
     <section class="max-w-2xl space-y-6 mx-auto flex flex-col items-center" dir="rtl">
         <span class="text-white font-bold text-6xl blackText">
             المپیاد را

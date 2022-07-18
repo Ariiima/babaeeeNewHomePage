@@ -1,9 +1,11 @@
 <template>
   <div>
-    <div class="relative" @click="isOpen" v-click-outside="onClickOutside">
+    <div  
+    :class=" mobile ? 'flex justify-center' : 'relative' "
+    @click="isOpen" v-click-outside="onClickOutside">
       <!-- Dropdown toggle button -->
       <button
-        class="text-[#E5E5E5] hover:bg-[#262626] hover:text-white px-6 py-2 rounded-[10px] content-center	"
+        :class="buttonClass"
       >
         <span>{{name}}</span>
         <svg
@@ -24,7 +26,7 @@
       <div
         
         v-show="show"
-        class="transition absolute right-0 py-2 mt-2 rounded-md shadow-xl w-44 bg-[#1A1A1A]/75"
+        class="transition absolute right-0 py-2 mt-2 rounded-md shadow-xl w-44 bg-[#1A1A1A]/[95%]"
       >
         <a
         href='#'
@@ -53,6 +55,8 @@
       }
     },
     props: {
+    mobile : '',
+    buttonClass:'',
     name:'',
     items:[]
   },
