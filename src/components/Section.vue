@@ -63,7 +63,7 @@
                             </div>
                     </a>
                     <a href="#" class="flex w-fit" @mouseenter="hovered" @mouseleave="hovered">
-                        <h3 class="mt-8 mr-2" >همکاری در تولید محتوا</h3>
+                        <h3 class="mt-8 mr-2 font-bold" >همکاری در تولید محتوا</h3>
                         <svg
                         class="transition float-left pr-1 h-5 text-black rotate-90 mt-9 dark:text-white pt-1"
                         :class="state.ishovered ? '-translate-x-1' : '' "

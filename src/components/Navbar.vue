@@ -41,13 +41,13 @@
           flex-col
           mt-8
           space-y-4
-          lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-1 lg:mt-0 xl:space-x-4
+          lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-1 lg:mt-0 xl:space-x-4 items-center
         "
       >
-            <button class="text-sm text-[#E5E5E5] hover:bg-[#FFFFFF]/5 hover:text-white  lg:px-4 py-2 rounded-[10px]">خانه</button>
-            <button class="text-sm text-[#E5E5E5] hover:bg-[#FFFFFF]/5 hover:text-white  lg:px-4 py-2 rounded-[10px]">سایت قدیم</button>
-            <Dropdown buttonClass="text-sm text-[#E5E5E5] hover:bg-[#262626] hover:text-white lg:px-4 py-2 rounded-[10px] content-center" name="آموزش المپیاد" :items="['تست ۱','تست ۲']" :mobile="state.showMenu ? true : false " />	   
-            <Dropdown buttonClass="text-sm text-[#E5E5E5] hover:bg-[#262626] hover:text-white lg:px-4 py-2 rounded-[10px] content-center" name="آشنایی با المپیاد" :items="['تست ۱','تست ۲']" :mobile="state.showMenu ? true : false "/>	   
+            <button class="text-sm w-fit  text-[#E5E5E5] hover:bg-[#FFFFFF]/5 hover:text-white  px-[5rem] lg:px-4 py-2 rounded-[10px]">خانه</button>
+            <button class="text-sm w-fit text-[#E5E5E5] hover:bg-[#FFFFFF]/5 hover:text-white  px-[5rem] lg:px-4 py-2 rounded-[10px]">سایت قدیم</button>
+            <Dropdown buttonClass="text-sm  text-[#E5E5E5] hover:bg-[#262626] hover:text-white lg:px-4 py-2 rounded-[10px] content-center" name="آموزش المپیاد" :items="['تست ۱','تست ۲']" :mobile="state.showMenu ? true : false " />	   
+            <Dropdown buttonClass="text-sm  text-[#E5E5E5] hover:bg-[#262626] hover:text-white lg:px-4 py-2 rounded-[10px] content-center" name="آشنایی با المپیاد" :items="['تست ۱','تست ۲']" :mobile="state.showMenu ? true : false "/>	   
             <Dropdown buttonClass="text-sm text-[#E5E5E5] hover:bg-[#262626] hover:text-white lg:px-4 py-2 rounded-[10px] content-center" name="جشنواره سالیانه" :items="['تست ۱','تست ۲']" :mobile="state.showMenu ? true : false"/>	   
             <Dropdown  buttonClass="text-sm text-[#E5E5E5] hover:bg-[#262626] hover:text-white lg:px-4 py-2 rounded-[10px] content-center" name="ببعییی" :items="['تست ۱','تست ۲']" :mobile="state.showMenu ? true : false"/>	   
 

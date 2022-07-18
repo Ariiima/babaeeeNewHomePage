@@ -9,8 +9,8 @@
 <template>
   <div class='bg-[#1A1A1A]'>
     <Navbar class="mb-10" />
-    <section class="max-w-2xl space-y-6 mx-auto flex flex-col items-center" dir="rtl">
-        <span class="text-white font-bold text-6xl blackText">
+    <section class="max-w-md space-y-6 mx-auto flex flex-col items-center" dir="rtl">
+        <span class="text-white font-bold text-4xl blackText">
             المپیاد را
             <span class="text-[#FF5E5E] blackText">جذاب</span>
             بیاموزید!

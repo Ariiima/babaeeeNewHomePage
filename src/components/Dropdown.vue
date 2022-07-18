@@ -5,6 +5,7 @@
     @click="isOpen" v-click-outside="onClickOutside">
       <!-- Dropdown toggle button -->
       <button
+        class = "px-[5rem]"
         :class="buttonClass"
       >
         <span>{{name}}</span>
