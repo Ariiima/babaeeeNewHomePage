@@ -50,3 +50,7 @@
   word-spacing: 0px;
 }
 }
+
+:root {
+  --swiper-theme-color: #FF5E5E;
+}

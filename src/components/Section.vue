@@ -22,7 +22,7 @@
 
     <div class="">
         <section class="bg-[#E5E5E5] pt-60 pb-40 pr-10" dir="rtl">
-                <img class="h-[10rem] md:h-[17rem] lg:h-[21rem] xl:h-[26rem] w-auto float-left ml-20" src="../assets/holder.png" alt="">
+                <img class=" h-[10rem] md:h-[17rem] lg:h-[21rem] xl:h-[26rem] w-auto float-left ml-20" src="../assets/holder.png" alt="">
                 <div class="flex place-items-center gap-2">
                     <span class="w-6 h-[1px] rounded-full mr-2 bg-[#808080] inline-block"></span>
                     <h3 class="text-sm text-[#808080]">آموزش جذاب و رایگان</h3>

@@ -6,7 +6,7 @@
       <!-- Dropdown toggle button -->
       <button
         class = "px-[5rem]"
-        :class="buttonClass"
+        :class="[buttonClass, show ? 'bg-[#262626] text-white' : '']"
       >
         <span>{{name}}</span>
         <svg
@@ -27,13 +27,13 @@
       <div
         
         v-show="show"
-        class="transition absolute right-0 py-2 mt-2 rounded-md shadow-xl w-44 bg-[#1A1A1A]/[95%]"
+        class="transition absolute right-0 py-2 mt-2 rounded-md shadow-xl w-44 bg-[#262626]"
       >
         <a
         href='#'
         v-for="item of items"
           to="/"
-          class="text-sm lg:text-md block px-4 py-2 text-[#E5E5E5] hover:bg-[#262626] hover:text-white rounded-[10px] "
+          class="text-sm lg:text-md block px-4 py-2 text-[#E5E5E5] hover:bg-[#303030] hover:text-white rounded-[10px] "
         >
           {{item}}
         </a>
