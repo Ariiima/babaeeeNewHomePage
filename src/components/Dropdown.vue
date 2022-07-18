@@ -33,7 +33,7 @@
         href='#'
         v-for="item of items"
           to="/"
-          class="block px-4 py-2 text-[#E5E5E5] hover:bg-[#262626] hover:text-white px-6 py-2 rounded-[10px] "
+          class="text-sm lg:text-md block px-4 py-2 text-[#E5E5E5] hover:bg-[#262626] hover:text-white rounded-[10px] "
         >
           {{item}}
         </a>

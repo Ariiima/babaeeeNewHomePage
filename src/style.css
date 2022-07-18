@@ -26,3 +26,27 @@
 .blackText{
   font-family: 'IranianSansBlack';
 }
+
+@media screen and (min-width:640px){ 
+  section span {
+  word-spacing: 10px;
+}
+}
+
+@media screen and (min-width:768px){ 
+  section span {
+  word-spacing: 10px;
+}
+}
+
+@media screen and (min-width:1024px){ 
+  section span {
+  word-spacing: 30px;
+}
+}
+
+@media screen and (min-width:1280px){ 
+  section span {
+  word-spacing: 0px;
+}
+}
