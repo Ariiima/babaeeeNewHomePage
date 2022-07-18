@@ -52,5 +52,5 @@
 }
 
 :root {
-  --swiper-theme-color: #FF5E5E;
+  --swiper-theme-color:#FF5E5E !important;
 }
