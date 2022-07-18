@@ -22,7 +22,7 @@
 
     <div class="">
         <section class="bg-[#E5E5E5] pt-60 pb-40 pr-10" dir="rtl">
-                <img class="h-[27rem] w-auto float-left ml-20" src="../assets/holder.png" alt="">
+                <img class="h-[10rem] md:h-[17rem] lg:h-[21rem] xl:h-[26rem] w-auto float-left ml-20" src="../assets/holder.png" alt="">
                 <div class="flex place-items-center gap-2">
                     <span class="w-6 h-[1px] rounded-full mr-2 bg-[#808080] inline-block"></span>
                     <h3 class="text-sm text-[#808080]">آموزش جذاب و رایگان</h3>
@@ -31,7 +31,7 @@
                     آموزش المپیاد کامپیوتر
                 </h2>
                 <div class="space-y-4">
-                    <a href="" class="relative flex dark:text-[#E5E5E5] mt-10 w-fit"  @mouseenter="onmouseenter" @mouseleave="onmouseleave" id="1">
+                    <a href="" class="relative flex dark:text-[#E5E5E5] mt-10 w-[22rem] lg:w-fit"  @mouseenter="onmouseenter" @mouseleave="onmouseleave" id="1">
                             <div class="absolute bg-[#FF5E5E] rounded-[50px] w-[8px] h-10 self-center transition right-[5px]"
                             :class=" state.hover==='1' ? 'scale-y-150':'' "
                                 ></div>
@@ -46,8 +46,7 @@
                             </div>
                             </div>
                     </a>
-
-                <a href="" class="relative flex dark:text-[#E5E5E5] mt-10 w-fit"  @mouseenter="onmouseenter" @mouseleave="onmouseleave" id="2">
+                     <a href="" class="relative flex dark:text-[#E5E5E5] mt-10 w-[22rem] lg:w-fit"  @mouseenter="onmouseenter" @mouseleave="onmouseleave" id="2">
                             <div class="absolute bg-[#FF5E5E] rounded-[50px] w-[8px] h-10 self-center transition right-[5px]"
                             :class=" state.hover==='2' ? 'scale-y-150':'' "
                                 >  </div>
