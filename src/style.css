@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: 'IranianSans';
+  src:url(assets/fonts/IRANSans/IRANSans.ttf);
+  }
+@font-face{
+  font-family: 'IranianSansBold';
+  src:url(assets/fonts/IRANSans/IRANSans_Bold.ttf);
+  font-weight: bold;
+  }
+@font-face{
+  font-family: 'IranianSansBlack';
+  src:url(assets/fonts/IRANSans/IRANSans_Black.ttf);
+  font-weight: bold;
+  }
+*{
+  font-family: 'IranianSans';
+}
+.bigText{
+  
+  font-family: 'IranianSansBold';
+}
+.blackText{
+  font-family: 'IranianSansBlack';
+}
